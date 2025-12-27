@@ -1,0 +1,14 @@
+.text,.laptop-wrapper{
+    font-size:40px;
+    animation:drop 1s ease-out forwards;
+}
+@keyframes drop{
+    0%{
+        transform:translateY(-100px);
+        opacity:0;
+    }
+    100%{
+        tansform:translateY(0);
+        opacity:1;
+    }
+}

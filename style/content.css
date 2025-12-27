@@ -1,0 +1,89 @@
+.content{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    margin-right:50px;
+}
+.rightbar{
+    display:flex;
+    flex-direction:column;
+}
+.profile-photo{
+    height:300px;
+    width:400px;
+    border-radius:10px;
+    border:none;
+}
+.profile-photo:hover{
+    opacity:0.8;
+}
+.profile-photo:active{
+    height:250px;
+    width:350px;
+}
+.skills-grid{
+    display:grid;
+    grid-template-columns:100px 100px;
+    column-gap:30px;
+    row-gap:40px;
+}
+.award-text{
+    color:white;
+    font-size:10px;
+}
+.count{
+    font-size:30px;
+    color:rgb(134, 93, 175);
+}
+.count:hover{
+    opacity:0.80;
+}
+.count:active{
+    opacity:0.50;
+}
+.awards{
+    margin-top:20px;
+}
+.download-button{
+    background-color:rgb(134, 93, 175);
+    width:390px;
+    height:40px;
+    color:white;
+    font-size:10px;
+    border:none;
+    border-radius:5px;
+    margin-top:-1px;
+}
+.download-button:hover{
+    opacity:0.80;
+}
+.download-button:active{
+    opacity:0.50;
+}
+.page2{
+    height:900px;
+    width:1400px;
+    color:rgb(134, 93, 175);
+    margin-top:30px;
+    background-color:black;
+}
+.laptop-wrapper{
+    position:relative;
+}
+.laptop-image{
+    width:1500px;
+    height:954px;
+    display:block;
+}
+.laptop-screen{
+    position:absolute;
+    margin-top:44px;
+    top:18px;
+    padding-left:70px;
+    left:239px;
+    width:947px;
+    height:740px;
+    background:rgb(20, 19, 19);
+    overflow:hidden;
+}
+
